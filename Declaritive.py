@@ -33,7 +33,6 @@ def book_room(room_number):
     else:
         print(f"No room with number {room_number} found.")
 
-# Example usage:
 print(rooms)
 print(f"Room 101 available: {is_available(101)}")
 book_room(101)
