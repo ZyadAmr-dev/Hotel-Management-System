@@ -1,0 +1,62 @@
+{
+    "rooms": [
+        {
+            "roomNumber": 101,
+            "roomType": "single",
+            "price": 100,
+            "available": true
+        },
+        {
+            "roomNumber": 102,
+            "roomType": "double",
+            "price": 150,
+            "available": false
+        },
+        {
+            "roomNumber": 103,
+            "roomType": "suite",
+            "price": 250,
+            "available": true
+        },
+        {
+            "roomNumber": 104,
+            "roomType": "single",
+            "price": 100,
+            "available": true
+        },
+        {
+            "roomNumber": 105,
+            "roomType": "suite",
+            "price": 200,
+            "available": true
+        }
+    ],
+    "reservations": [
+        {
+            "reservationId": 2,
+            "customerName": "Bob",
+            "roomNumber": 102,
+            "checkInDate": "2024-12-18",
+            "checkOutDate": "2024-12-20"
+        }
+    ],
+    "customers": [],
+    "availableServices": [
+        {
+            "id": 1,
+            "name": "Meal",
+            "price": 50
+        },
+        {
+            "id": 2,
+            "name": "Laundry",
+            "price": 20
+        },
+        {
+            "id": 3,
+            "name": "Spa",
+            "price": 100
+        }
+    ],
+    "orderedServices": []
+}
